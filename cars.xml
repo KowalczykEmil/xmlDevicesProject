@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="cars.css"?>
-<!DOCTYPE dokument SYSTEM "samochody.dtd">
+<!DOCTYPE dokument SYSTEM "cars.dtd">
 
 <root>
     <head>
@@ -18,38 +18,39 @@
             <yearOfProduction>2019</yearOfProduction>
             <bodyStyle name="Sedan"></bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
+                <capacity>3000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">450</power>
+                <transmissionType>Manualna</transmissionType>
                 <typeOfDrive>rear</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.671</length>
+                <width unit="m">1.877</width>
+                <height unit="m">1.430</height>
+                <weight unit="kg">1610</weight>
+                <bootCapacity unit="L">480</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
         <!-- 2th Car -->
         <car id="c2">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="Porsche"></brand>
+            <model>Macan Standard</model>
+            <yearOfProduction>2018</yearOfProduction>
+            <bodyStyle name="SUV"></bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>2000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">252</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.697</length>
+                <width unit="m">1.923</width>
+                <height unit="m">1.624</height>
+                <bootCapacity unit="L">600</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
@@ -430,10 +431,8 @@
                 <bootCapacity unit="L"></bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
-        </car>
-        
+        </car> 
     </cars>
-    
 </root>
 
 
