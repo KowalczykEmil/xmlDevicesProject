@@ -7,8 +7,7 @@
     <title>Samochody warte zobaczenia!</title>
     <authors>Praca została wykonana przez:</authors>
     <author>Emil Kowalczyk, nr indeksu: 230178</author>
-    <author>Dominik Świąder, nr indeksu: 230214
-        </author>
+    <author>Dominik Świąder, nr indeksu: 230214</author>
     <data>05.11.2020r</data>
     </head>
     
@@ -434,6 +433,38 @@
             <numberOfDoors>3</numberOfDoors>
         </car> 
     </cars>
+    
+    <groups>
+        <group1>
+            <body name="Sedan"></body>
+            <body name="SUV"></body>
+            <body name="Coupe"></body>
+            <body name="Sedan"></body>
+            <body name="Hatchback"></body>
+        </group1>
+        
+        <group2>
+            <brand bname="BMW"></brand>
+            <brand bname="Porsche"></brand>
+            <brand bname="Lamborghini"></brand>
+            <brand bname="Ford"></brand>
+            <brand bname="Rolls-Royce"></brand>
+            <brand bname="Dodge"></brand>
+            <brand bname="Aston Martin"></brand>
+            <brand bname="Bugatti"></brand>
+            <brand bname="Kia"></brand>
+            <brand bname="Volvo"></brand>
+            <brand bname="Lexus"></brand>
+            <brand bname="Infiniti"></brand>
+            <brand bname="Chevrolet"></brand>
+            <brand bname="Maserati"></brand>
+            <brand bname="Audi"></brand>
+            <brand bname="Nissan"></brand>
+            <brand bname="Toyota"></brand>
+            <brand bname="Koenigsegg"></brand>
+        </group2>
+    </groups>
+    
 </root>
 
 
