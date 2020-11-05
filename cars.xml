@@ -7,7 +7,8 @@
     <title>Samochody warte zobaczenia!</title>
     <authors>Praca została wykonana przez:</authors>
     <author>Emil Kowalczyk, nr indeksu: 230178</author>
-    <author>Dominik Świąder, nr indeksu: </author>
+    <author>Dominik Świąder, nr indeksu: 230214
+        </author>
     <data>05.11.2020r</data>
     </head>
     
@@ -22,7 +23,7 @@
                 <typeOfFuel>Benzyna</typeOfFuel>
                 <power unit="km">450</power>
                 <transmissionType>Manualna</transmissionType>
-                <typeOfDrive>rear</typeOfDrive>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
                 <length unit="m">4.671</length>
@@ -56,381 +57,381 @@
         </car>
         <!-- 3th Car -->
         <car id="c3">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+           <brand bname="">Lamborghini</brand>
+            <model>Urus</model>
+            <yearOfProduction>2017</yearOfProduction>
+            <bodyStyle name="">SUV</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>4000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">650</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">5.112</length>
+                <width unit="m">2.016</width>
+                <height unit="m">1.638</height>
+                <bootCapacity unit="L">574</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
         <!-- 4th Car -->
         <car id="c4">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Ford</brand>
+            <model>Mustang</model>
+            <yearOfProduction>2014</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>5200</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">533</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.784</length>
+                <width unit="m">1.916</width>
+                <height unit="m">1.381</height>
+                <bootCapacity unit="L">408</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 5th Car -->
         <car id="c5">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Ford</brand>
+            <model>GT</model>
+            <yearOfProduction>2019</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>3500</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">647</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.763</length>
+                <width unit="m">2.004</width>
+                <height unit="m">1.110</height>
+                <bootCapacity unit="L">11</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 6th Car -->
         <car id="c6">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Rolls-Royce</brand>
+            <model>Ghost</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Sedan</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>6600</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">563</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">5.457</length>
+                <width unit="m">1.948</width>
+                <height unit="m">1.550</height>
+                <bootCapacity unit="L">490</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
         <!-- 7th Car -->
         <car id="c7">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Rolls-Royce</brand>
+            <model>Phantom</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Sedan</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>6800</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">563</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">5.770</length>
+                <width unit="m">2.018</width>
+                <height unit="m">1.646</height>
+                <bootCapacity unit="L">548</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
         <!-- 8th Car -->
         <car id="c8">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Dodge</brand>
+            <model>Challenger</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>6200</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">797</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">5.017</length>
+                <width unit="m">1.990</width>
+                <height unit="m">1.461</height>
+                <bootCapacity unit="L">459</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 9th Car -->
         <car id="c9">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Aston Martin</brand>
+            <model>Superleggera</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>5200</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">715</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.712</length>
+                <width unit="m">2.146</width>
+                <height unit="m">1.280</height>
+                <bootCapacity unit="L">20</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 10th Car -->
         <car id="c10">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Bugatti</brand>
+            <model>Chiron</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>8000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">1479</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.544</length>
+                <width unit="m">2.038</width>
+                <height unit="m">1.212</height>
+                <bootCapacity unit="L">44</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 11th Car -->
         <car id="c11">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Kia</brand>
+            <model>Stinger</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Hatchback</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>3300</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">365</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.830</length>
+                <width unit="m">1.870</width>
+                <height unit="m">1.400</height>
+                <bootCapacity unit="L">660</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
         <!-- 12th Car -->
         <car id="c12">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Volvo</brand>
+            <model>S90</model>
+            <yearOfProduction>2019</yearOfProduction>
+            <bodyStyle name="">Sedan</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>2000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">400</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">5.083</length>
+                <width unit="m">1.895</width>
+                <height unit="m">1.450</height>
+                <bootCapacity unit="L">382</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
         <!-- 13th Car -->
         <car id="c13">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Lexus</brand>
+            <model>RC</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>5000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">467</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.705</length>
+                <width unit="m">1.845</width>
+                <height unit="m">1.390</height>
+                <bootCapacity unit="L">287</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 14th Car -->
         <car id="c14">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Infiniti</brand>
+            <model>Q60</model>
+            <yearOfProduction>2017</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>2000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">208</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.684</length>
+                <width unit="m">1.849</width>
+                <height unit="m">1.384</height>
+                <bootCapacity unit="L">100</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 15th Car -->
         <car id="c15">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Chevrolet</brand>
+            <model>Corvette</model>
+            <yearOfProduction>2014</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>6200</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">455</power>
+                <transmissionType>Manualna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.493</length>
+                <width unit="m">1.877</width>
+                <height unit="m">1.240</height>
+                <bootCapacity unit="L">425</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 16th Car -->
         <car id="c16">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Maserati</brand>
+            <model>Quattroporte</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Sedan</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>3800</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">523</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">5.262</length>
+                <width unit="m">2.128</width>
+                <height unit="m">1.481</height>
+                <bootCapacity unit="L">530</bootCapacity>
             </dimensions>
             <numberOfDoors>5</numberOfDoors>
         </car>
         <!-- 17th Car -->
         <car id="c17">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Audi</brand>
+            <model>R8</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>5200</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">602</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.427</length>
+                <width unit="m">1.941</width>
+                <height unit="m">1.240</height>
+                <bootCapacity unit="L">227</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 18th Car -->
         <car id="c18">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Nissan</brand>
+            <model>GT-R</model>
+            <yearOfProduction>2018</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>3800</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">565</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>4x4</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.709</length>
+                <width unit="m">1.895</width>
+                <height unit="m">1.369</height>
+                <bootCapacity unit="L">249</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 19th Car -->
         <car id="c19">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Toyota</brand>
+            <model>Supra</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>3000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">335</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.381</length>
+                <width unit="m">1.854</width>
+                <height unit="m">1.294</height>
+                <bootCapacity unit="L">290</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car>
         <!-- 20th Car -->
         <car id="c20">
-            <brand bname=""></brand>
-            <model></model>
-            <yearOfProduction></yearOfProduction>
-            <bodyStyle name=""></bodyStyle>
+            <brand bname="">Koenigsegg</brand>
+            <model>Regera</model>
+            <yearOfProduction>2017</yearOfProduction>
+            <bodyStyle name="">Coupe</bodyStyle>
             <engine>
-                <capacity></capacity>
-                <typeOfFuel></typeOfFuel>
-                <power unit="km"></power>
-                <transmissionType></transmissionType>
-                <typeOfDrive></typeOfDrive>
+                <capacity>5000</capacity>
+                <typeOfFuel>Benzyna</typeOfFuel>
+                <power unit="km">1100</power>
+                <transmissionType>Automatyczna</transmissionType>
+                <typeOfDrive>Tył</typeOfDrive>
             </engine>
             <dimensions>
-                <length unit="m"></length>
-                <width unit="m"></width>
-                <height unit="m"> </height>
-                <bootCapacity unit="L"></bootCapacity>
+                <length unit="m">4.560</length>
+                <width unit="m">2.050</width>
+                <height unit="m">1.110</height>
+                <bootCapacity unit="L">150</bootCapacity>
             </dimensions>
-            <numberOfDoors>5</numberOfDoors>
+            <numberOfDoors>3</numberOfDoors>
         </car> 
     </cars>
 </root>
