@@ -1,4 +1,4 @@
-root{
+dokument{
 	color: #efefef;
 	background-color: #2f3333;
 	background-attachment: fixed;
@@ -8,14 +8,6 @@ root{
 	font-family: sans-serif; 	
 }
 /*########### MIESJCE NAGLOWKA ###########*/
-
-data{
-	display: block;
-	text-align: right;
-	margin-bottom: 15px;
-	margin-right: 15px;
-	
-}
 data:before{
 	content: "Wykonano w dniu: ";
 }
@@ -106,7 +98,35 @@ car > brand::before{
 	content: ""attr(bname)"";
 }
 
-/*LEWA STRONA*/
+/*Right_Side*/
+engine{
+	width: 30%;
+	float: right;
+}
+engine > typeOfFuel, capacity, power, transmissionType, typeOfDrive{
+	text-align: left;
+	display: list-item;
+	list-style: none;
+	padding-right: 20px;
+}
+
+engine > typeOfFuel::before{
+	content: "Rodzaj paliwa: ";
+}
+
+engine > capacity::before{
+	content: "Pojemność silnika [cm^3]: ";
+}
+
+engine > power::before{
+	content: "Moc [km]: ";
+}
+
+engine > transmissionType::before{
+	content: "Rodzaj skrzynii: ";
+}
+
+/*LEFT_SIDE*/
 dimensions{
 	width: 40%;
 }
@@ -146,36 +166,7 @@ dimensions > bootCapacity::before {
 	content: "Pojemność bagażnika ["attr(unit)"]: ";
 }
 
-/*PRAWA STRONA*/
-
-engine{
-	width: 30%;
-	float: right;
-}
-engine > typeOfFuel, capacity, power, transmissionType, typeOfDrive{
-	text-align: left;
-	display: list-item;
-	list-style: none;
-	padding-right: 20px;
-}
-
-engine > typeOfFuel::before{
-	content: "Rodzaj paliwa: ";
-}
-
-engine > capacity::before{
-	content: "Pojemność silnika [cm^3]: ";
-}
-
-engine > power::before{
-	content: "Moc [km]: ";
-}
-
-engine > transmissionType::before{
-	content: "Rodzaj skrzynii: ";
-}
-
-/*POSZCZEGLNE KATEGORIE*/
+/*Groups_footer*/
 
 groups{
 	display: block;
@@ -183,11 +174,12 @@ groups{
 	margin-top: 20px;
 	background-color: grey;
 	color: black;
-	padding-bottom: 20px;
-	padding-top: 20px;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
 }
 
 groups:hover{

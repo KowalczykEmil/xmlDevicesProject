@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="cars.css"?>
 <!DOCTYPE dokument SYSTEM "cars.dtd">
 
-<root>
+<dokument>
     <head>
     <title>Samochody warte zobaczenia!</title>
     <authors>Praca została wykonana przez:</authors>
@@ -55,10 +55,10 @@
         </car>
         <!-- 3th Car -->
         <car id="c3">
-           <brand bname="">Lamborghini</brand>
+           <brand bname="Lamborghini"></brand>
             <model>Urus</model>
             <yearOfProduction>2017</yearOfProduction>
-            <bodyStyle name="">SUV</bodyStyle>
+            <bodyStyle name="SUV"></bodyStyle>
             <engine>
                 <capacity>4000</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -76,10 +76,10 @@
         </car>
         <!-- 4th Car -->
         <car id="c4">
-            <brand bname="">Ford</brand>
+            <brand bname="Ford"></brand>
             <model>Mustang</model>
             <yearOfProduction>2014</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>5200</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -97,10 +97,10 @@
         </car>
         <!-- 5th Car -->
         <car id="c5">
-            <brand bname="">Ford</brand>
+            <brand bname="Ford"></brand>
             <model>GT</model>
             <yearOfProduction>2019</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>3500</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -118,10 +118,10 @@
         </car>
         <!-- 6th Car -->
         <car id="c6">
-            <brand bname="">Rolls-Royce</brand>
+            <brand bname="Rolls-Royce"></brand>
             <model>Ghost</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Sedan</bodyStyle>
+            <bodyStyle name="Sedan"></bodyStyle>
             <engine>
                 <capacity>6600</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -139,10 +139,10 @@
         </car>
         <!-- 7th Car -->
         <car id="c7">
-            <brand bname="">Rolls-Royce</brand>
+            <brand bname="Rolls-Royce"></brand>
             <model>Phantom</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Sedan</bodyStyle>
+            <bodyStyle name="Sedan"></bodyStyle>
             <engine>
                 <capacity>6800</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -160,10 +160,10 @@
         </car>
         <!-- 8th Car -->
         <car id="c8">
-            <brand bname="">Dodge</brand>
+            <brand bname="Dodge"></brand>
             <model>Challenger</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>6200</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -181,10 +181,10 @@
         </car>
         <!-- 9th Car -->
         <car id="c9">
-            <brand bname="">Aston Martin</brand>
+            <brand bname="Aston_Martin"></brand>
             <model>Superleggera</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>5200</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -202,10 +202,10 @@
         </car>
         <!-- 10th Car -->
         <car id="c10">
-            <brand bname="">Bugatti</brand>
+            <brand bname="Bugatti"></brand>
             <model>Chiron</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>8000</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -223,10 +223,10 @@
         </car>
         <!-- 11th Car -->
         <car id="c11">
-            <brand bname="">Kia</brand>
+            <brand bname="Kia"></brand>
             <model>Stinger</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Hatchback</bodyStyle>
+            <bodyStyle name="Hatchback"></bodyStyle>
             <engine>
                 <capacity>3300</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -244,10 +244,10 @@
         </car>
         <!-- 12th Car -->
         <car id="c12">
-            <brand bname="">Volvo</brand>
+            <brand bname="Volvo"></brand>
             <model>S90</model>
             <yearOfProduction>2019</yearOfProduction>
-            <bodyStyle name="">Sedan</bodyStyle>
+            <bodyStyle name="Sedan"></bodyStyle>
             <engine>
                 <capacity>2000</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -265,10 +265,10 @@
         </car>
         <!-- 13th Car -->
         <car id="c13">
-            <brand bname="">Lexus</brand>
+            <brand bname="Lexus"></brand>
             <model>RC</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>5000</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -286,10 +286,10 @@
         </car>
         <!-- 14th Car -->
         <car id="c14">
-            <brand bname="">Infiniti</brand>
+            <brand bname="Infiniti"></brand>
             <model>Q60</model>
             <yearOfProduction>2017</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>2000</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -307,10 +307,10 @@
         </car>
         <!-- 15th Car -->
         <car id="c15">
-            <brand bname="">Chevrolet</brand>
+            <brand bname="Chevrolet"></brand>
             <model>Corvette</model>
             <yearOfProduction>2014</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>6200</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -328,10 +328,10 @@
         </car>
         <!-- 16th Car -->
         <car id="c16">
-            <brand bname="">Maserati</brand>
+            <brand bname="Maserati"></brand>
             <model>Quattroporte</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Sedan</bodyStyle>
+            <bodyStyle name="Sedan"></bodyStyle>
             <engine>
                 <capacity>3800</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -349,10 +349,10 @@
         </car>
         <!-- 17th Car -->
         <car id="c17">
-            <brand bname="">Audi</brand>
+            <brand bname="Audi"></brand>
             <model>R8</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>5200</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -370,10 +370,10 @@
         </car>
         <!-- 18th Car -->
         <car id="c18">
-            <brand bname="">Nissan</brand>
+            <brand bname="Nissan"></brand>
             <model>GT-R</model>
             <yearOfProduction>2018</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>3800</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -391,10 +391,10 @@
         </car>
         <!-- 19th Car -->
         <car id="c19">
-            <brand bname="">Toyota</brand>
+            <brand bname="Toyota"></brand>
             <model>Supra</model>
             <yearOfProduction>2020</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>3000</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -412,10 +412,10 @@
         </car>
         <!-- 20th Car -->
         <car id="c20">
-            <brand bname="">Koenigsegg</brand>
+            <brand bname="Koenigsegg"></brand>
             <model>Regera</model>
             <yearOfProduction>2017</yearOfProduction>
-            <bodyStyle name="">Coupe</bodyStyle>
+            <bodyStyle name="Coupe"></bodyStyle>
             <engine>
                 <capacity>5000</capacity>
                 <typeOfFuel>Benzyna</typeOfFuel>
@@ -438,7 +438,6 @@
             <body name="Sedan"></body>
             <body name="SUV"></body>
             <body name="Coupe"></body>
-            <body name="Sedan"></body>
             <body name="Hatchback"></body>
         </group1>
         
@@ -449,7 +448,7 @@
             <brands bname="Ford"></brands>
             <brands bname="Rolls-Royce"></brands>
             <brands bname="Dodge"></brands>
-            <brands bname="Aston Martin"></brands>
+            <brands bname="Aston_Martin"></brands>
             <brands bname="Bugatti"></brands>
             <brands bname="Kia"></brands>
             <brands bname="Volvo"></brands>
@@ -464,7 +463,7 @@
         </group2>
     </groups>
     
-</root>
+</dokument>
 
 
     

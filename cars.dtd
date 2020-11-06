@@ -1,0 +1,49 @@
+<!ELEMENT dokument (head|cars|groups)*>
+        <!ELEMENT head (title|authors|(author)+|data)*>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT authors (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT data (#PCDATA)>
+        <!ELEMENT cars (car)*>
+        <!ELEMENT car (brand|model|yearOfProduction|bodyStyle|engine+|dimensions|numberOfDoors)*>
+        <!ATTLIST car
+                id ID #REQUIRED>
+        <!ELEMENT brand (#PCDATA)>
+        <!ATTLIST brand
+                bname IDREF #REQUIRED>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT yearOfProduction (#PCDATA)>
+        <!ELEMENT bodyStyle (#PCDATA)>
+        <!ATTLIST bodyStyle
+                name IDREF #REQUIRED>
+        <!ELEMENT engine (capacity|typeOfFuel+|power?|transmissionType+|typeOfDrive)*>
+        <!ELEMENT capacity (#PCDATA)>
+        <!ELEMENT typeOfFuel (#PCDATA)>
+        <!ELEMENT power (#PCDATA)>
+        <!ATTLIST power 
+                    unit CDATA #FIXED "km">
+        <!ELEMENT transmissionType (#PCDATA)>
+        <!ELEMENT typeOfDrive (#PCDATA)>
+        <!ELEMENT dimensions (length|width|height|bootCapacity)*>
+        <!ELEMENT length (#PCDATA)>
+        <!ATTLIST length
+                    unit CDATA #FIXED "m">
+        <!ELEMENT width (#PCDATA)>
+        <!ATTLIST width
+                    unit CDATA #FIXED "m">
+        <!ELEMENT height (#PCDATA)>
+        <!ATTLIST height
+                    unit CDATA #FIXED "m">
+        <!ELEMENT bootCapacity (#PCDATA)>
+        <!ATTLIST bootCapacity
+                    unit CDATA #FIXED "L">
+        <!ELEMENT numberOfDoors (#PCDATA)>
+        <!ELEMENT groups (group1|group2)*>
+        <!ELEMENT group1 (body)*>
+        <!ELEMENT body (#PCDATA)>
+        <!ATTLIST body
+                    name ID #REQUIRED>
+        <!ELEMENT group2 (brands)*>
+        <!ELEMENT brands (#PCDATA)>
+        <!ATTLIST brands
+                    bname ID #REQUIRED>
