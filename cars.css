@@ -2,9 +2,9 @@ root{
 	color: #efefef;
 	background-color: #2f3333;
 	background-attachment: fixed;
-	background-size: cover;
 	font-size: 20px;
 	padding: 20px;
+	background-size: cover;
 	font-family: sans-serif; 	
 }
 /*########### MIESJCE NAGLOWKA ###########*/
@@ -15,28 +15,34 @@ data{
 	margin-bottom: 15px;
 	margin-right: 15px;
 	
-	
 }
+data:before{
+	content: "Wykonano w dniu: ";
+}
+
 head > *{	/*OPERATOR {*} - WYBOR WSZYSTKICH ELEMENTOW */
 	display: block;
-	text-align: center;
 	font-size: 25px;
 	color: #6495ED;
+	text-align: center;
+	
 }
 head > authors:hover {
-	font-size: 50px;
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
 	cursor: pointer;
-	color: white;
 }
 head > author:hover {
-	font-size: 50px;
+	font-size: 40px;
 	cursor: pointer;
-	color:white;
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	cursor: pointer;
 }
 head > data:hover {
-	font-size: 50px;
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
 	cursor: pointer;
-	color:white;
 }
 head >:hover {
 	font-size: 30px;
@@ -51,14 +57,16 @@ head > title{
 	letter-spacing: 4px;
 }
 head > title:hover{
-	background-color:#6495ED;
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	font-size:50px;
 	cursor: pointer;
 }
 
 head > authors{
 	margin-top: 5px;
 }
-nagłówek > author{
+head > author{
 	margin-top: 3px;
 }
 /*############# MIEJSCE DANYCH ################*/
@@ -75,24 +83,16 @@ cars{
 
 cars > car{
 	display: block;
-	border: 4px solid #cccccc;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	
+	border: 5px solid #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 cars > car:hover{
-	background-color:#ddddac;
+	background-color:#22272F;
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
 	cursor: pointer;
-}
-
-cars > car:nth-child(even):hover{
-	background-color:#ddddac;
-	cursor: pointer;
-}
-
-cars > car:nth-child(even){
-	background-color: #1c74b2;
 }
 
 car > brand, model{
@@ -100,6 +100,7 @@ car > brand, model{
 	letter-spacing: 1px;
 	word-spacing: 1px;
 }
+
 
 car > brand::before{
 	content: ""attr(bname)"";
@@ -190,16 +191,18 @@ groups{
 }
 
 groups:hover{
-	background-color: white;
+	background-color: #22272F;
+	color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	font-weight: bold;
 }
 
 group1::before {
 	content: "Oferowane typy nadwozia: ";
 	display: block;
-}
+} 
 
 group1 > body::before{
-	content: ""attr(name)" ";
+	content: ""attr(name)"";
 }
 
 group2::before {
