@@ -1,0 +1,213 @@
+root{
+	color: #efefef;
+	background-color: #2f3333;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 20px;
+	padding: 20px;
+	font-family: sans-serif; 	
+}
+/*########### MIESJCE NAGLOWKA ###########*/
+
+data{
+	display: block;
+	text-align: right;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	
+	
+}
+head > *{	/*OPERATOR {*} - WYBOR WSZYSTKICH ELEMENTOW */
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	color: #6495ED;
+}
+head > authors:hover {
+	font-size: 50px;
+	cursor: pointer;
+	color: white;
+}
+head > author:hover {
+	font-size: 50px;
+	cursor: pointer;
+	color:white;
+}
+head > data:hover {
+	font-size: 50px;
+	cursor: pointer;
+	color:white;
+}
+head >:hover {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+head > title{
+	color: black;
+	font-size: 60px;
+	text-transform: uppercase;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+}
+head > title:hover{
+	background-color:#6495ED;
+	cursor: pointer;
+}
+
+head > authors{
+	margin-top: 5px;
+}
+nagłówek > author{
+	margin-top: 3px;
+}
+/*############# MIEJSCE DANYCH ################*/
+cars{
+	display: block;
+	background-color:;
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1%;
+	
+}
+
+cars > car{
+	display: block;
+	border: 4px solid #cccccc;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+cars > car:hover{
+	background-color:#ddddac;
+	cursor: pointer;
+}
+
+cars > car:nth-child(even):hover{
+	background-color:#ddddac;
+	cursor: pointer;
+}
+
+cars > car:nth-child(even){
+	background-color: #1c74b2;
+}
+
+car > brand, model{
+	font-size: 30px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+car > brand::before{
+	content: ""attr(bname)"";
+}
+
+/*LEWA STRONA*/
+dimensions{
+	width: 40%;
+}
+
+bodyStyle,numberOfDoors, dimensions > length, width, height, bootCapacity{
+	text-align: left;
+	display: list-item;
+	list-style: none;
+	padding-left: 70px;
+}
+
+bodyStyle::before{
+	content: "Typ nadwozia: ";
+}
+
+numberOfDoors::before{
+	content: "Liczba drzwi: ";
+}
+
+typeOfDrive::before{
+	content: "Napęd na: "
+}
+
+dimensions > length::before{
+content: "Długość ["attr(unit)"]: ";
+}
+
+dimensions > width::before {
+	content: "Szerokość ["attr(unit)"]: " ;
+}
+
+dimensions > height::before {
+	content: "Wysokość ["attr(unit)"]: " ;
+}
+
+dimensions > bootCapacity::before {
+	content: "Pojemność bagażnika ["attr(unit)"]: ";
+}
+
+/*PRAWA STRONA*/
+
+engine{
+	width: 30%;
+	float: right;
+}
+engine > typeOfFuel, capacity, power, transmissionType, typeOfDrive{
+	text-align: left;
+	display: list-item;
+	list-style: none;
+	padding-right: 20px;
+}
+
+engine > typeOfFuel::before{
+	content: "Rodzaj paliwa: ";
+}
+
+engine > capacity::before{
+	content: "Pojemność silnika [cm^3]: ";
+}
+
+engine > power::before{
+	content: "Moc [km]: ";
+}
+
+engine > transmissionType::before{
+	content: "Rodzaj skrzynii: ";
+}
+
+/*POSZCZEGLNE KATEGORIE*/
+
+groups{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	background-color: grey;
+	color: black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+groups:hover{
+	background-color: white;
+}
+
+group1::before {
+	content: "Oferowane typy nadwozia: ";
+	display: block;
+}
+
+group1 > body::before{
+	content: ""attr(name)" ";
+}
+
+group2::before {
+	content: "Marki, które oferujemy: ";
+	display: block;
+	padding-top: 20px;
+}
+
+group2 > brands::before{
+	content: ""attr(bname)" ";
+}
