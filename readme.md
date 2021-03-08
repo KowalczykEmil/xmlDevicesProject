@@ -1,7 +1,7 @@
 # 1.(XML,CSS,DTD)
 
 
-<a href="https://imgflip.com/gif/50tii7"><img src="https://i.imgflip.com/50tii7.gif" title="Strona z danymi z XML"/></a>
+<a href="https://imgflip.com/gif/50tii7"><img src="https://i.imgflip.com/50tii7.gif"{:style="float: right;margin-right: 7px;margin-top: 7px;"} title="Strona z danymi z XML"/></a>
 
 Describe:
 I have created an XML file containing data on electrical devices. The file contains twenty electrical devices and consists of three subtrees: Authors, Devices, Groups.
