@@ -1,0 +1,223 @@
+dokument{
+	color: #efefef;
+	background-color: #2f3333;
+	background-attachment: fixed;
+	font-size: 20px;
+	padding: 20px;
+	background-size: cover;
+	font-family: sans-serif; 	
+}
+/*########### MIESJCE NAGLOWKA ###########*/
+data:before{
+	content: "Wykonano w dniu: ";
+}
+
+head > *{	/*OPERATOR {*} - WYBOR WSZYSTKICH ELEMENTOW */
+	display: block;
+	font-size: 25px;
+	color: #6495ED;
+	text-align: center;
+	
+}
+head > authors:hover {
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	cursor: pointer;
+}
+head > author:hover {
+	font-size: 40px;
+	cursor: pointer;
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	cursor: pointer;
+}
+head > data:hover {
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	cursor: pointer;
+}
+head >:hover {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+head > title{
+	color: black;
+	font-size: 60px;
+	text-transform: uppercase;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+}
+head > title:hover{
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	font-size:50px;
+	cursor: pointer;
+}
+
+head > authors{
+	margin-top: 5px;
+}
+head > author{
+	margin-top: 3px;
+}
+/*############# MIEJSCE DANYCH ################*/
+devices{
+	display: block;
+	background-color:;
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1%;
+	
+}
+
+devices > device{
+	display: block;
+	border: 5px solid #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+devices > device:hover{
+	background-color:#22272F;
+	font-weight: bold;
+    color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	cursor: pointer;
+}
+
+device > brand, model{
+	font-size: 30px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+
+device > brand::before{
+	content: ""attr(bname)"";
+}
+
+/*Right_Side*/
+technical{
+	width: 30%;
+	float: right;
+}
+technical > procesor, typeOfSystem, ram, builtInMemory, port{
+	text-align: left;
+	display: list-item;
+	list-style: none;
+	padding-right: 20px;
+}
+
+technical > procesor::before{
+	content: "Procesor: ";
+}
+
+technical > typeOfSystem::before{
+	content: "Typ systemu: ";
+}
+
+technical > ram::before{
+	content: "RAM [GB]: ";
+}
+
+technical > builtInMemory::before{
+content: "Wbudowana pamięć [GB]: ";
+}
+
+
+/*LEFT_SIDE*/
+dimensions{
+	width: 40%;
+}
+
+bodyStyle, batteryCapacity, dimensions > display, thickness, width, height, weight{
+	text-align: left;
+	display: list-item;
+	list-style: none;
+	padding-left: 70px;
+}
+
+bodyStyle::before{
+	content: "Typ urządzenia: "attr(name)" ";
+}
+
+batteryCapacity::before{
+	content: "Bateria ["attr(unit)"]: ";
+}
+
+port::before{
+	content: "Urządzenie z portem: "
+}
+
+dimensions > display::before{
+content: "Ilość cali ["attr(unit)"]: ";
+}
+
+dimensions > thickness::before{
+content: "Grubość ["attr(unit)"]: ";	
+}
+
+dimensions > width::before {
+	content: "Szerokość ["attr(unit)"]: " ;
+}
+
+dimensions > height::before {
+	content: "Wysokość ["attr(unit)"]: " ;
+}
+
+dimensions > weight::before {
+	content: "Waga urządzenia ["attr(unit)"]: ";
+}
+
+/*Groups_footer*/
+
+groups{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	background-color: grey;
+	color: black;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+}
+
+groups:hover{
+	background-color: #22272F;
+	color: white; text-shadow: #6495ED 0.1em 0.1em 0.20em;
+	font-weight: bold;
+}
+
+group1::before {
+	content: "Oferowane typy urządzeń: ";
+	display: block;
+} 
+
+group1 > body::before{
+	content: ""attr(name)"";
+}
+
+group2::before {
+	content: "Marki, które oferujemy: ";
+	display: block;
+	padding-top: 20px;
+}
+
+group2 > brands::before{
+	content: ""attr(bname)" ";
+}
+
+group3::before {
+	content: "Systemy operacyjne na których pracują urządzenia: ";
+	display: block;
+	padding-top: 20px;
+}
+
+group3 > system::before{
+	content: ""attr(sname)" ";
+}
