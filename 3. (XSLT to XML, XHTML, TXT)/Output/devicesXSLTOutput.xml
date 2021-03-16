@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><Dokument>
+    <Device Rating="8.2" Brand_and_model="Nokia 8.3" Technical="RAM [GB]: 8 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 765G" Dimensions="Display: 6.81 inch Thickness: 8.99 mm" Battery="4500"/>
+    <Device Rating="7.7" Brand_and_model="Xiaomi Redmi Note 9 Pro" Technical="RAM [GB]: 6 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 720G" Dimensions="Display: 6.67 inch Thickness: 8.80 mm" Battery="5020"/>
+    <Device Rating="9.2" Brand_and_model="Xiaomi Mi 9" Technical="RAM [GB]: 8 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 855" Dimensions="Display: 6.4 inch Thickness: 7.61 mm" Battery="3300"/>
+    <Device Rating="7.5" Brand_and_model="Samsung Tab S7" Technical="RAM [GB]: 8 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 865+" Dimensions="Display: 11 inch Thickness: 6.30 mm" Battery="8000"/>
+    <Device Rating="6.9" Brand_and_model="Samsung M31S" Technical="RAM [GB]: 8 builtInMemory [GB]: 128" System="Android" Procesor="Samsung Exynos 9611" Dimensions="Display: 6.5 inch Thickness: 9.30 mm" Battery="6000"/>
+    <Device Rating="7.1" Brand_and_model="Huawei Nova 8 SE" Technical="RAM [GB]: 8 builtInMemory [GB]: 128" System="Android" Procesor="MediaTek Dimensity 720" Dimensions="Display: 6.53 inch Thickness: 7.46 mm" Battery="3800"/>
+    <Device Rating="7.5" Brand_and_model="Sony Xperia Pro" Technical="RAM [GB]: 8 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 865" Dimensions="Display: 6.50 inch Thickness: 10.20 mm" Battery="4000"/>
+    <Device Rating="8.5" Brand_and_model="SonyEricsson X10" Technical="RAM [GB]: 0.384 builtInMemory [GB]: 1" System="Android" Procesor="Qualcomm QSD8250" Dimensions="Display: 2.55 inch Thickness: 13.00 mm" Battery="1500"/>
+    <Device Rating="7.9" Brand_and_model="LG Q52" Technical="RAM [GB]: 4 builtInMemory [GB]: 64" System="Android" Procesor="MediaTek Helio P35 MT6765" Dimensions="Display: 6.15 inch Thickness: 8.40 mm" Battery="4000"/>
+    <Device Rating="8.4" Brand_and_model="Xiaomi Mi 10 PRO" Technical="RAM [GB]: 12 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 865" Dimensions="Display: 6.45 inch Thickness: 8.98 mm" Battery="4000"/>
+    <Device Rating="7.5" Brand_and_model="Xiaomi Redmi 7" Technical="RAM [GB]: 8 builtInMemory [GB]: 64" System="Android" Procesor="Qualcomm Snapdragon 632" Dimensions="Display: 5.20 inch Thickness: 8.47 mm" Battery="4000"/>
+    <Device Rating="7.3" Brand_and_model="Huawei MateBook" Technical="RAM [GB]: 16 builtInMemory [GB]: 512" System="Windows" Procesor="Ryzen 5 4600H" Dimensions="Display: 14.00 inch Thickness: 230 mm" Battery="3200"/>
+    <Device Rating="7.2" Brand_and_model="Lenovo K12 Note" Technical="RAM [GB]: 4 builtInMemory [GB]: 64" System="Android" Procesor="Qualcomm Snapdragon 662" Dimensions="Display: 6.10 inch Thickness: 9.18 mm" Battery="4200"/>
+    <Device Rating="7.5" Brand_and_model="Apple IPhone 12" Technical="RAM [GB]: 4 builtInMemory [GB]: 256" System="IOS" Procesor="Apple A14 Bionic" Dimensions="Display: 6.10 inch Thickness: 7.40 mm" Battery="2815"/>
+    <Device Rating="8.0" Brand_and_model="LG K31" Technical="RAM [GB]: 8 builtInMemory [GB]: 64" System="Android" Procesor="MediaTek Helio P22 MT6762" Dimensions="Display: 5.00 inch Thickness: 8.63 mm" Battery="3000"/>
+    <Device Rating="8.1" Brand_and_model="HTC U20" Technical="RAM [GB]: 8 builtInMemory [GB]: 64" System="Android" Procesor="Qualcomm Snapdragon 765G" Dimensions="Display: 5.20 inch Thickness: 9.40 mm" Battery="5000"/>
+    <Device Rating="8.2" Brand_and_model="Samsung Galaxy S10" Technical="RAM [GB]: 8 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 855" Dimensions="Display: 5.85 inch Thickness: 7.80 mm" Battery="3400"/>
+    <Device Rating="9.5" Brand_and_model="Samsung Galaxy Note 9" Technical="RAM [GB]: 6 builtInMemory [GB]: 128" System="Android" Procesor="Samsung Exynos 9810" Dimensions="Display: 6.40 inch Thickness: 8.80 mm" Battery="4000"/>
+    <Device Rating="9.3" Brand_and_model="Samsung Galaxy J3 Duo" Technical="RAM [GB]: 4 builtInMemory [GB]: 32" System="Android" Procesor="Samsung Exynos 7870" Dimensions="Display: 5.50 inch Thickness: 8.20 mm" Battery="3000"/>
+    <Device Rating="9.9" Brand_and_model="Asus Zenfone 7" Technical="RAM [GB]: 12 builtInMemory [GB]: 128" System="Android" Procesor="Qualcomm Snapdragon 865" Dimensions="Display: 6.67 inch Thickness: 9.60 mm" Battery="5000"/>
+    <Statystyki>
+        <numberOfDevices>20</numberOfDevices>
+        <Devices_Body_Smartphone>17</Devices_Body_Smartphone>
+        <Devices_Body_Tablet-Phone>1</Devices_Body_Tablet-Phone>
+        <Devices_Body_Laptop>1</Devices_Body_Laptop>
+        <Average_Phone_Ram>7.419200000000001</Average_Phone_Ram>
+        <Average_batteryCapacity>4086.75</Average_batteryCapacity>
+        <Devices_Port_USB_B>3</Devices_Port_USB_B>
+        <Devices_Port_USB_C>17</Devices_Port_USB_C>
+    </Statystyki>
+</Dokument>
