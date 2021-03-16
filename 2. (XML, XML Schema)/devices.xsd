@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:urzadzenie="xml-zad2-devices"
+            targetNamespace="xml-zad2-devices"
+            elementFormDefault="qualified">
+    
+    <xsd:element name="dokument" type="urzadzenie:dokumentTyp">
+
+        <xsd:key name="key_deviceID">
+            <xsd:selector xpath="./urzadzenie:devices/urzadzenie:device"/>
+            <xsd:field xpath="@id"/>
+        </xsd:key>
+
+        <xsd:key name="key_bodies">
+            <xsd:selector xpath="./urzadzenie:groups/urzadzenie:group1/urzadzenie:bodies"/>
+            <xsd:field xpath="@name"/>
+        </xsd:key>
+
+        <xsd:keyref name="keyref_bodies" refer="urzadzenie:key_bodies">
+            <xsd:selector xpath="./urzadzenie:devices/urzadzenie:device/urzadzenie:device"/>
+            <xsd:field xpath="@name"/>
+        </xsd:keyref>
+
+        <xsd:key name="key_brands">
+            <xsd:selector xpath="./urzadzenie:groups/urzadzenie:group2/urzadzenie:brands"/>
+            <xsd:field xpath="@bname"/>
+        </xsd:key>
+
+        <xsd:keyref name="keyref_brands" refer="urzadzenie:key_brands">
+           <xsd:selector xpath="./urzadzenie:devices/urzadzenie:device/urzadzenie:brand"/>
+            <xsd:field xpath="@bname"/>
+        </xsd:keyref>
+    </xsd:element>
+
+ <xsd:complexType name="dokumentTyp">
+        <xsd:sequence>
+            <xsd:element type="xsd:date" name="data" default="1970-01-01"/>
+            <xsd:element type="urzadzenie:headTyp" name="head"/>
+            <xsd:element type="urzadzenie:devicesTyp" name="devices"/>
+            <xsd:element type="urzadzenie:groupsTyp" name="groups"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="headTyp">
+        <xsd:sequence>
+            <xsd:element name="title" type="xsd:string"/>
+            <xsd:element type="urzadzenie:authorsTyp" name="authors"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="authorsTyp">
+        <xsd:sequence>
+            <xsd:element type="urzadzenie:authorTyp" name="author" maxOccurs="2" minOccurs="2"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="authorTyp">
+        <xsd:sequence>
+            <xsd:group ref="urzadzenie:author_info"/>
+            <xsd:element name="indeks">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:integer">
+                        <xsd:pattern value="([1-9][0-9][0-9][0-9][0-9][0-9])"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="devicesTyp">
+        <xsd:sequence>
+            <xsd:element type="urzadzenie:deviceTyp" name="device" maxOccurs="unbounded" minOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="deviceTyp">
+        <xsd:sequence>
+            <xsd:element type="urzadzenie:brandTyp" name="brand"/>
+            <xsd:element type="xsd:string" name="model"/>
+            <xsd:element type="xsd:string" name="yearOfProduction"/>
+            <xsd:element type="urzadzenie:typBodyStyle" name="bodyStyle"/>
+            <xsd:element type="urzadzenie:technicalTyp" name="technical"/>
+            <xsd:element type="urzadzenie:dimensionsTyp" name="dimensions"/>
+            <xsd:element type="urzadzenie:batteryCapacityTyp" name="batteryCapacity"/>
+        </xsd:sequence>
+        <xsd:attribute type="xsd:ID" name="id" use="required"/>
+    </xsd:complexType>
+    
+    <xsd:complexType name="brandTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute type="xsd:string" name="bname" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="typBodyStyle">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute type="xsd:string" name="name" use="optional"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="technicalTyp">
+        <xsd:sequence>
+            <xsd:element type="xsd:string" name="procesor"/>
+            <xsd:element name="typeOfSystem">
+                <xsd:simpleType>
+                         <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="Android"/>
+                        <xsd:enumeration value="IOS"/>
+                        <xsd:enumeration value="Windows"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element type="urzadzenie:ramTyp" name="ram"/>
+            <xsd:element type="urzadzenie:builtInMemoryTyp" name="builtInMemory"/>
+            <xsd:element name="port">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="USB typ B"/>
+                        <xsd:enumeration value="USB typ C"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+        </xsd:sequence>
+        </xsd:complexType>
+        
+        
+        <xsd:complexType name="ramTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="GB"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+        </xsd:complexType>
+        
+        <xsd:complexType name="builtInMemoryTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="GB"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+        </xsd:complexType>
+    
+    <xsd:complexType name="dimensionsTyp">
+        <xsd:all>
+            <xsd:element type="urzadzenie:displayTyp" name="display"/>
+            <xsd:element type="urzadzenie:thicknessTyp" name="thickness"/>
+            <xsd:element type="urzadzenie:widthTyp" name="width"/>
+            <xsd:element type="urzadzenie:heightTyp" name="height"/>
+            <xsd:element type="urzadzenie:weightTyp" name="weight"/>
+        </xsd:all>
+    </xsd:complexType>
+    
+    <xsd:complexType name="displayTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="inch"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="thicknessTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="mm"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="widthTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="mm"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="heightTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="mm"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+        <xsd:complexType name="weightTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="g"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+        </xsd:complexType>
+    
+        <xsd:complexType name="batteryCapacityTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+                <xsd:attribute type="xsd:string" name="unit" use="optional" default="mAh"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+        </xsd:complexType>
+           
+   
+    
+    <xsd:complexType name="groupsTyp">
+        <xsd:sequence>
+            <xsd:element type="urzadzenie:group1Typ" name="group1"/>
+            <xsd:element type="urzadzenie:group2Typ" name="group2"/>
+            <xsd:element type="urzadzenie:group3Typ" name="group3"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+     <xsd:complexType name="group1Typ">
+        <xsd:sequence>
+            <xsd:element type="urzadzenie:BodyTyp" name="body" maxOccurs="unbounded" minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="BodyTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute type="xsd:string" name="name" use="optional"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="group2Typ">
+        <xsd:sequence>
+            <xsd:element type="urzadzenie:brandsTyp" name="brands" maxOccurs="unbounded"
+                         minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="brandsTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute type="xsd:string" name="bname" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+<xsd:complexType name="group3Typ">
+        <xsd:sequence>
+            <xsd:element type="urzadzenie:systemTyp" name="system" maxOccurs="unbounded"
+                         minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="systemTyp">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute type="xsd:string" name="sname" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:group name="author_info">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="surname" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:group>
+    
+</xsd:schema>
+
+
+    
+
+
+
+   
+    
+  
