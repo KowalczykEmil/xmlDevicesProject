@@ -2,7 +2,11 @@
 
 
 <dokument   
-    <data>2020-12-19</data>
+   xmlns="xml-zad2-devices"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="xml-zad2-devices devices.xsd">
+    
+	<data>2020-12-19</data>
     
     <head>
     <title>Urządzenia elektryczne warte uwagi!</title>
