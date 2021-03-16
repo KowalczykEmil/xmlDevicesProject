@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<dokument   
+    <data>2020-12-19</data>
+    
+    <head>
+    <title>Urządzenia elektryczne warte uwagi!</title>
+    <authors>
+            <author>
+                <name>Emil</name>
+                <surname>Kowalczyk</surname>
+                <indeks>230178</indeks>
+            </author>
+             <author>
+                <name>Dominik</name>
+                <surname>Świąder</surname>
+                <indeks>230214</indeks>
+            </author>
+        </authors>
+    </head>
+    
+    <devices>
+        <device id="d1">
+            <brand bname="Nokia"></brand>
+            <model>8.3</model>
+            <yearOfProduction>2019</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 765G</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.81</display>
+                <thickness unit="mm">8.99</thickness>
+                <width unit="mm">78.56</width>
+                <height unit="mm">171</height>
+                <weight unit="g">227</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">4500</batteryCapacity>
+        </device>
+        <!-- 2th Device -->
+        <device id="d2">
+            <brand bname="Xiaomi"></brand>
+            <model>Redmi Note 9 Pro</model>
+            <yearOfProduction>2018</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 720G</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">6</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.67</display>
+                <thickness unit="mm">8.80</thickness>
+                <width unit="mm">76.68</width>
+                <height unit="mm">165.75</height>
+                <weight unit="g">209</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">5020</batteryCapacity>
+        </device>
+        <!-- 3th Device -->
+        <device id="d3">
+            <brand bname="Xiaomi"></brand>
+            <model>Mi 9</model>
+            <yearOfProduction>2019</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 855</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.4</display>
+                <thickness unit="mm">7.61</thickness>
+                <width unit="mm">74.67</width>
+                <height unit="mm">157.50</height>
+                <weight unit="g">173</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">3300</batteryCapacity>
+        </device>
+        <!-- 4th Device -->
+        <device id="d4">
+            <brand bname="Samsung"></brand>
+            <model>Tab S7</model>
+            <yearOfProduction>2019</yearOfProduction>
+            <bodyStyle name="Tablet-Phone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 865+</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">11</display>
+                <thickness unit="mm">6.30</thickness>
+                <width unit="mm">165.30</width>
+                <height unit="mm">253.80</height>
+                <weight unit="g">500</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">8000</batteryCapacity>
+        </device>
+        <!-- 5th Device -->
+        <device id="d5">
+            <brand bname="Samsung"></brand>
+            <model>M31S</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Samsung Exynos 9611</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.5</display>
+                <thickness unit="mm">9.30</thickness>
+                <width unit="mm">74.40</width>
+                <height unit="mm">159.30</height>
+                <weight unit="g">203</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">6000</batteryCapacity>
+        </device>
+        <!-- 6th Device -->
+        <device id="d6">
+            <brand bname="Huawei"></brand>
+            <model>Nova 8 SE</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>MediaTek Dimensity 720</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.53</display>
+                <thickness unit="mm">7.46</thickness>
+                <width unit="mm">74.80</width>
+                <height unit="mm">161.60</height>
+                <weight unit="g">178</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">3800</batteryCapacity>
+        </device>   
+        <!-- 7th Device -->
+        <device id="d7">
+            <brand bname="Sony"></brand>
+            <model>Xperia Pro</model>
+            <yearOfProduction>2017</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 865</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.50</display>
+                <thickness unit="mm">10.20</thickness>
+                <width unit="mm">76.20</width>
+                <height unit="mm">170.20</height>
+                <weight unit="g">225.10</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">4000</batteryCapacity>
+        </device>   
+        <!-- 8th Device -->
+        <device id="d8">
+            <brand bname="SonyEricsson"></brand>
+            <model>X10</model>
+            <yearOfProduction>2010</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm QSD8250</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">0.384</ram>
+                <builtInMemory unit="GB">1</builtInMemory>
+                <port>USB typ B</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">2.55</display>
+                <thickness unit="mm">13.00</thickness>
+                <width unit="mm">63.00</width>
+                <height unit="mm">119.20</height>
+                <weight unit="g">135.00</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">1500</batteryCapacity>
+        </device>  
+        <!-- 9th Device -->
+        <device id="d9">
+            <brand bname="LG"></brand>
+            <model>Q52</model>
+            <yearOfProduction>2018</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>MediaTek Helio P35 MT6765</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">4</ram>
+                <builtInMemory unit="GB">64</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.15</display>
+                <thickness unit="mm">8.40</thickness>
+                <width unit="mm">76.70</width>
+                <height unit="mm">165</height>
+                <weight unit="g">186.00</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">4000</batteryCapacity>
+        </device> 
+         <!-- 10th Device -->
+        <device id="d10">
+            <brand bname="Xiaomi"></brand>
+            <model>Mi 10 PRO</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 865</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">12</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.45</display>
+                <thickness unit="mm">8.98</thickness>
+                <width unit="mm">74.80</width>
+                <height unit="mm">162.60</height>
+                <weight unit="g">208</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">4000</batteryCapacity>
+        </device>       
+         <!-- 11th Device -->
+        <device id="d11">
+            <brand bname="Xiaomi"></brand>
+            <model>Redmi 7</model>
+            <yearOfProduction>2018</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 632</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">64</builtInMemory>
+                <port>USB typ B</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">5.20</display>
+                <thickness unit="mm">8.47</thickness>
+                <width unit="mm">75.58</width>
+                <height unit="mm">158.73</height>
+                <weight unit="g">180</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">4000</batteryCapacity>
+        </device>     
+         <!-- 12th Device -->
+        <device id="d12">
+            <brand bname="Huawei"></brand>
+            <model>MateBook</model>
+            <yearOfProduction>2018</yearOfProduction>
+            <bodyStyle name="Laptop"></bodyStyle>
+            <technical>
+                <procesor>Ryzen 5 4600H</procesor>
+                <typeOfSystem>Windows</typeOfSystem>
+                <ram unit="GB">16</ram>
+                <builtInMemory unit="GB">512</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">14.00</display>
+                <thickness unit="mm">230</thickness>
+                <width unit="mm">358</width>
+                <height unit="mm">1720</height>
+                <weight unit="g">1530</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">3200</batteryCapacity>
+        </device>   
+        <!-- 13th Device -->
+        <device id="d13">
+            <brand bname="Lenovo"></brand>
+            <model>K12 Note</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 662</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">4</ram>
+                <builtInMemory unit="GB">64</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.10</display>
+                <thickness unit="mm">9.18</thickness>
+                <width unit="mm">75.73</width>
+                <height unit="mm">165.21</height>
+                <weight unit="g">200</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">4200</batteryCapacity>
+        </device>       
+        <!-- 14th Device -->
+        <device id="d14">
+            <brand bname="Apple"></brand>
+            <model>IPhone 12</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Apple A14 Bionic</procesor>
+                <typeOfSystem>IOS</typeOfSystem>
+                <ram unit="GB">4</ram>
+                <builtInMemory unit="GB">256</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.10</display>
+                <thickness unit="mm">7.40</thickness>
+                <width unit="mm">71.50</width>
+                <height unit="mm">146.70</height>
+                <weight unit="g">162</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">2815</batteryCapacity>
+        </device>         
+        <!-- 15th Device -->
+        <device id="d15">
+            <brand bname="LG"></brand>
+            <model>K31</model>
+            <yearOfProduction>2017</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>MediaTek Helio P22 MT6762</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">64</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">5.00</display>
+                <thickness unit="mm">8.63</thickness>
+                <width unit="mm">71.12</width>
+                <height unit="mm">147.82</height>
+                <weight unit="g">144.86</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">3000</batteryCapacity>
+        </device>
+        <!-- 16th Device -->
+        <device id="d16">
+            <brand bname="HTC"></brand>
+            <model>U20</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 765G</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">64</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">5.20</display>
+                <thickness unit="mm">9.40</thickness>
+                <width unit="mm">78.10</width>
+                <height unit="mm">171.20</height>
+                <weight unit="g">215.50</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">5000</batteryCapacity>
+        </device>   
+        <!-- 17th Device -->
+        <device id="d17">
+            <brand bname="Samsung"></brand>
+            <model>Galaxy S10</model>
+            <yearOfProduction>2019</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 855</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">8</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">5.85</display>
+                <thickness unit="mm">7.80</thickness>
+                <width unit="mm">70.40</width>
+                <height unit="mm">149.90</height>
+                <weight unit="g">157.00</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">3400</batteryCapacity>
+        </device>   
+        <!-- 18th Device -->
+        <device id="d18">
+            <brand bname="Samsung"></brand>
+            <model>Galaxy Note 9</model>
+            <yearOfProduction>2019</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Samsung Exynos 9810</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">6</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.40</display>
+                <thickness unit="mm">8.80</thickness>
+                <width unit="mm">76.40</width>
+                <height unit="mm">161.90</height>
+                <weight unit="g">201.00</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">4000</batteryCapacity>
+        </device>    
+        <!-- 19th Device -->
+        <device id="d19">
+            <brand bname="Samsung"></brand>
+            <model>Galaxy J3 Duo</model>
+            <yearOfProduction>2016</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Samsung Exynos 7870</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">4</ram>
+                <builtInMemory unit="GB">32</builtInMemory>
+                <port>USB typ B</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">5.50</display>
+                <thickness unit="mm">8.20</thickness>
+                <width unit="mm">77.20</width>
+                <height unit="mm">153.50</height>
+                <weight unit="g">174.00</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">3000</batteryCapacity>
+        </device>
+        <!-- 20th Device -->
+        <device id="d20">
+            <brand bname="Asus"></brand>
+            <model>Zenfone 7</model>
+            <yearOfProduction>2020</yearOfProduction>
+            <bodyStyle name="Smartphone"></bodyStyle>
+            <technical>
+                <procesor>Qualcomm Snapdragon 865</procesor>
+                <typeOfSystem>Android</typeOfSystem>
+                <ram unit="GB">12</ram>
+                <builtInMemory unit="GB">128</builtInMemory>
+                <port>USB typ C</port>
+            </technical>
+            <dimensions>
+                <display unit="inch">6.67</display>
+                <thickness unit="mm">9.60</thickness>
+                <width unit="mm">77.28</width>
+                <height unit="mm">165.08</height>
+                <weight unit="g">230.00</weight>
+            </dimensions>
+            <batteryCapacity unit="mAh">5000</batteryCapacity>
+        </device>                       
+    </devices>
+    
+    <groups>
+        <group1>
+            <body name="Smartphone"></body>
+            <body name="Tablet-Phone"></body>
+            <body name="Laptop"></body>
+        </group1>
+        
+        <group2>
+            <brands bname="Nokia"></brands>
+            <brands bname="Xiaomi"></brands>
+            <brands bname="Samsung"></brands>
+            <brands bname="Huawei"></brands>
+            <brands bname="Sony"></brands>
+            <brands bname="SonyEricsson"></brands>
+            <brands bname="LG"></brands>
+            <brands bname="Lenovo"></brands>
+            <brands bname="Apple"></brands>
+            <brands bname="HTC"></brands>
+            <brands bname="Asus"></brands>
+        </group2>
+        
+        <group3>
+            <system sname="Android"></system>
+            <system sname="Windows"></system>
+            <system sname="IOS"></system>
+        </group3>
+    </groups>
+    
+</dokument>
+
+
+    
+    
